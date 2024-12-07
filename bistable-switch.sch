@@ -1579,7 +1579,7 @@ by exp-lbrs.ulp</description>
 <part name="S1" library="PTS525SM15SMTR2LFS" deviceset="PTS525SM15SMTR2LFS" device=""/>
 <part name="R1" library="Tubescreamer" library_urn="urn:adsk.eagle:library:41628504" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:42437559/3" value="10kOhm"/>
 <part name="C1" library="Tubescreamer" library_urn="urn:adsk.eagle:library:41628504" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:42437565/3" value="100nF"/>
-<part name="3V3" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1"/>
+<part name="VCC" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1"/>
 <part name="GND" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1"/>
 <part name="DR" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:5829429/1"/>
 <part name="C2" library="Tubescreamer" library_urn="urn:adsk.eagle:library:41628504" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:42437565/3" value="100nF"/>
@@ -1610,7 +1610,7 @@ by exp-lbrs.ulp</description>
 <attribute name="NAME" x="32.385" y="92.456" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="37.211" y="92.456" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="3V3" gate="G$1" x="63.5" y="68.58" smashed="yes">
+<instance part="VCC" gate="G$1" x="63.5" y="68.58" smashed="yes">
 <attribute name="NAME" x="62.23" y="69.85" size="1.778" layer="95"/>
 </instance>
 <instance part="GND" gate="G$1" x="55.88" y="38.1" smashed="yes">
@@ -1657,7 +1657,7 @@ by exp-lbrs.ulp</description>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="91.44" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="3V3" gate="G$1" pin="TP"/>
+<pinref part="VCC" gate="G$1" pin="TP"/>
 <pinref part="U1" gate="A" pin="VDD"/>
 <wire x1="43.18" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="78.74" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
