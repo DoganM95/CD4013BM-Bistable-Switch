@@ -9,6 +9,15 @@ A pcb with a single button, which on each press toggles a mosfet's output on/off
 
 # Properties
 
+- Power consumption
+  - Switched off:
+    - 0.0 uA @ 2.5 V (= less than 100 nA)
+    - 4 uA @ 4.2 V
+    - 20 uA @ 5.0 V
+  - Switched on:
+    - 240 uA @ 2.5V
+    - 500 uA @ 4.2V
+    - 500 uA @ 5.0 V
 - Initial state is off
 - Two n-channel mosfets in parallel for high current support
 - Green status led (optional)
