@@ -21,13 +21,13 @@ A pcb with a single button, which on each press toggles a mosfet's output on/off
   </tr>
 </table>
 
-# Specs
+## Specs
 
 - Current troughput theoretically: around 10A
 - PCB input voltage: 3.0V - 5.0V
 - Thicc exposed mosfet traces to create solder wires
 
-# Properties
+## Properties
 
 - Power consumption
   - Switched off:
@@ -43,7 +43,19 @@ A pcb with a single button, which on each press toggles a mosfet's output on/off
 - Green status led (optional)
 - Debounced button
 
-# Usage
+## BOM
+R1: 0805 sized, 10k
+R2: 0805 sized, 10k
+R3: 0805 sized, 10k
+C1: 0805 sized, 100nF
+C2: 0805 sized, 100nF
+U1: SOP16 package, CD4013BM
+U2: sot23-3 package, AO3400
+U3: sot23-3 package, AO3400
+S1: Tactile switch CK (Metal shell)
+D1: 3528 sized, RGB led with common VCC
+
+## Usage
 
 - Connect e.g. a li-ion battery's GND to the pcb's GND
 - Connect li-ion VCC to pcb's VCC
