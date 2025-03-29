@@ -49,7 +49,7 @@ R2: 0805 sized, 10k
 R3: 0805 sized, 10k
 C1: 0805 sized, 100nF
 C2: 0805 sized, 100nF
-U1: SOP16 package, CD4013BM
+U1: SOIC14 package, CD4013BM
 U2: sot23-3 package, AO3400
 U3: sot23-3 package, AO3400
 S1: Tactile switch CK (Metal shell)
